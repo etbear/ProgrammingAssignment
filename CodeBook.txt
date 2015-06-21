@@ -1,0 +1,86 @@
+
+
+###############################Code Book##############################
+
+Group.1
+  The type of 6 activities measured:   
+    1 WALKING  
+    2 WALKING_UPSTAIRS  
+    3 WALKING_DOWNSTAIRS  
+    4 SITTING  
+    5 STANDING  
+    6 LAYING  
+
+Group.2
+  The ID of measured subject  
+
+
+tBodyAcc-mean()-XYZ
+  Average value of Body Acceleration means in x,y,z directions  (g)
+tGravityAcc-mean()-XYZ
+  Average value of Gravity means in x,y,z directions  (g)
+tBodyAccJerk-mean()-XYZ
+  Average value of Body Acceleration Jerk means in x,y,z directions  (g)
+tBodyGyro-mean()-XYZ
+  Average value of Body Gyro means in x,y,z directions  (radians/s)
+tBodyGyroJerk-mean()-XYZ
+  Average value of Body Gyro Jerk means in x,y,z directions  (radians/s)
+tBodyAccMag-mean()  
+  Average value of Body Acceleration magnitude means  (number)
+tGravityAccMag-mean()
+  Average value of Gravity Acceleration magnitude means  (number)
+tBodyAccJerkMag-mean() 
+  Average value of Body Acceleration Jerk magnitude means  (number)
+tBodyGyroMag-mean()
+  Average value of Body Gyro magnitude means  (number)
+tBodyGyroJerkMag-mean()
+  Average value of Body Gyro Jerk magnitude means  (number)
+fBodyAcc-mean()-XYZ
+  Average value of Body Acceleration means in x,y,z directions after FFT applied  (g)
+fBodyAccJerk-mean()-XYZ
+  Average value of Body Acceleration Jerk means in x,y,z directions after FFT applied  (g)
+fBodyGyro-mean()-XYZ**  
+  Average value of Body Gyro means in x,y,z directions after FFT applied  (radians/s)
+fBodyAccMag-mean()
+  Average value of Body Acceleration magnitude means after FFT applied  (number)
+fBodyAccJerkMag-mean()
+  Average value of Body Acceleration Jerk magnitude means after FFT applied  (number)
+fBodyGyroMag-mean()
+  Average value of Body Gyro magnitude means after FFT applied  (number)
+fBodyGyroJerkMag-mean()
+  Average value of Body Gyro Jerk magnitude means after FFT applied  (number)
+
+tBodyAcc-std()-XYZ
+  Average value of Body Acceleration standard deviations in x,y,z directions  (g)
+tGravityAcc-std()-XYZ
+  Average value of Gravity standard deviations in x,y,z directions  (g)
+tBodyAccJerk-std()-XYZ
+  Average value of Body Acceleration Jerk standard deviations in x,y,z directions  (g)
+tBodyGyro-std()-XYZ
+  Average value of Body Gyro standard deviations in x,y,z directions  (radians/s)
+tBodyGyroJerk-std()-XYZ
+  Average value of Body Gyro Jerk standard deviations in x,y,z directions  (radians/s)
+tBodyAccMag-std()
+  Average value of Body Acceleration magnitude standard deviations  (number)
+tGravityAccMag-std()
+  Average value of Gravity Acceleration magnitude standard deviations  (number)
+tBodyAccJerkMag-std()
+  Average value of Body Acceleration Jerk magnitude standard deviations  (number)
+tBodyGyroMag-std()
+  Average value of Body Gyro magnitude standard deviations  (number)
+tBodyGyroJerkMag-std()
+  Average value of Body Gyro Jerk magnitude standard deviations  (number)
+fBodyAcc-std()-XYZ
+  Average value of Body Acceleration standard deviations in x,y,z directions after FFT applied  (g)
+fBodyAccJerk-std()-XYZ
+  Average value of Body Acceleration Jerk standard deviations in x,y,z directions after FFT applied  (g)
+fBodyGyro-std()-XYZ
+  Average value of Body Gyro standard deviations in x,y,z directions after FFT applied  (radians/s)
+fBodyAccMag-std()
+  Average value of Body Acceleration magnitude standard deviations after FFT applied  (number)
+fBodyAccJerkMag-std()
+  Average value of Body Acceleration Jerk magnitude standard deviations after FFT applied  (number)
+fBodyGyroMag-std()
+  Average value of Body Gyro magnitude standard deviations after FFT applied  (number)
+fBodyGyroJerkMag-std()
+  Average value of Body Gyro Jerk magnitude standard deviations after FFT applied  (number)
