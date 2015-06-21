@@ -1,0 +1,88 @@
+run_analysis.R requires the following data files
+"UCI HAR Dataset/test/X_test.txt" "UCI HAR Dataset/test/y_test.txt" "UCI HAR Dataset/test/subject_test.txt"
+"UCI HAR Dataset/train/X_train.txt" "UCI HAR Dataset/train/y_train.txt" "UCI HAR Dataset/train/subject_train.txt"
+"UCI HAR Dataset/activity_labels.txt" "UCI HAR Dataset/features.txt"
+
+the file loads the data, extracts mean and std for each measurement, assigns appropriate names for the data, and compute average value by each subject and each activity
+
+Group.1
+  The type of 6 activities measured: 
+    1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
+
+Group.2
+  The ID of measured subject
+
+tBodyAcc-mean()-XYZ
+  Average value of Body Acceleration means in x,y,z directions
+tGravityAcc-mean()-XYZ
+  Average value of Gravity means in x,y,z directions
+tBodyAccJerk-mean()-XYZ
+  Average value of Body Acceleration Jerk means in x,y,z directions
+tBodyGyro-mean()-XYZ
+  Average value of Body Gyro means in x,y,z directions
+tBodyGyroJerk-mean()-XYZ
+  Average value of Body Gyro Jerk means in x,y,z directions
+tBodyAccMag-mean()
+  Average value of Body Acceleration magnitude means
+tGravityAccMag-mean()
+  Average value of Gravity Acceleration magnitude means
+tBodyAccJerkMag-mean()
+  Average value of Body Acceleration Jerk magnitude means
+tBodyGyroMag-mean()
+  Average value of Body Gyro magnitude means
+tBodyGyroJerkMag-mean()
+  Average value of Body Gyro Jerk magnitude means
+fBodyAcc-mean()-XYZ
+  Average value of Body Acceleration means in x,y,z directions after FFT applied
+fBodyAccJerk-mean()-XYZ
+  Average value of Body Acceleration Jerk means in x,y,z directions after FFT applied
+fBodyGyro-mean()-XYZ
+  Average value of Body Gyro means in x,y,z directions after FFT applied
+fBodyAccMag-mean()
+  Average value of Body Acceleration magnitude means after FFT applied
+fBodyAccJerkMag-mean()
+  Average value of Body Acceleration Jerk magnitude means after FFT applied
+fBodyGyroMag-mean()
+  Average value of Body Gyro magnitude means after FFT applied
+fBodyGyroJerkMag-mean()
+  Average value of Body Gyro Jerk magnitude means after FFT applied
+
+tBodyAcc-std()-XYZ
+  Average value of Body Acceleration standard deviations in x,y,z directions
+tGravityAcc-std()-XYZ
+  Average value of Gravity standard deviations in x,y,z directions
+tBodyAccJerk-std()-XYZ
+  Average value of Body Acceleration Jerk standard deviations in x,y,z directions
+tBodyGyro-std()-XYZ
+  Average value of Body Gyro standard deviations in x,y,z directions
+tBodyGyroJerk-std()-XYZ
+  Average value of Body Gyro Jerk standard deviations in x,y,z directions
+tBodyAccMag-std()
+  Average value of Body Acceleration magnitude standard deviations
+tGravityAccMag-std()
+  Average value of Gravity Acceleration magnitude standard deviations
+tBodyAccJerkMag-std()
+  Average value of Body Acceleration Jerk magnitude standard deviations
+tBodyGyroMag-std()
+  Average value of Body Gyro magnitude standard deviations
+tBodyGyroJerkMag-std()
+  Average value of Body Gyro Jerk magnitude standard deviations
+fBodyAcc-std()-XYZ
+  Average value of Body Acceleration standard deviations in x,y,z directions after FFT applied
+fBodyAccJerk-std()-XYZ
+  Average value of Body Acceleration Jerk standard deviations in x,y,z directions after FFT applied
+fBodyGyro-std()-XYZ
+  Average value of Body Gyro standard deviations in x,y,z directions after FFT applied
+fBodyAccMag-std()
+  Average value of Body Acceleration magnitude standard deviations after FFT applied
+fBodyAccJerkMag-std()
+  Average value of Body Acceleration Jerk magnitude standard deviations after FFT applied
+fBodyGyroMag-std()
+  Average value of Body Gyro magnitude standard deviations after FFT applied
+fBodyGyroJerkMag-std()
+  Average value of Body Gyro Jerk magnitude standard deviations after FFT applied
